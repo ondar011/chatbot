@@ -6,8 +6,7 @@
 
 
 #btn-send {
-            text-indent: -9999px;
-            line-height: 0;
+            visibility: hidden;
             background-color:#813efb;
             color:#fff;
             padding:9px;
