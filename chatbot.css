@@ -1,4 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css');
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
 .bpw-widget-btn {           
             background-color: #813efb !important;
@@ -6,20 +6,20 @@
 
 
 #btn-send {
-text-indent: -9999px;
-line-height: 0;
-background-color:#813efb;
+            text-indent: -9999px;
+            line-height: 0;
+            background-color:#813efb;
             color:#fff;
             padding:9px;
 }
 
 #btn-send::after {
-    content:"Odeslat";
-    text-indent: 0;
-    display: block;
-    line-height: initial;        
+            content: "\f1d8";
+            font-family: FontAwesome;
+            visibility: visible;
+            display: block;   
 }
 
 #btn-send:disabled {
-    opacity: 0.5;
+            opacity: 0.5;
 }
