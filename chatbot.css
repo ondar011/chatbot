@@ -10,6 +10,7 @@ text-indent: -9999px;
 line-height: 0;
 background-color:#813efb;
             color:#fff;
+            padding:9px;
 }
 
 #btn-send::after {
@@ -19,3 +20,6 @@ background-color:#813efb;
     line-height: initial;        
 }
 
+#btn-send:disabled {
+    opacity: 0.5;
+}
