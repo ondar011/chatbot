@@ -3,20 +3,25 @@
 .bpw-widget-btn {           
             background-color: #813efb !important;
         }
-
+.bpw-send-buttons{
+ align-items: unset;
+}
 
 #btn-send {
             visibility: hidden;
-            background-color:#813efb;
             color:#fff;
-            padding:9px;
 }
 
 #btn-send::after {
             content: "\f1d8";
-            font-family: FontAwesome;
-            visibility: visible;
-            display: block;   
+    font-family: FontAwesome;
+    visibility: visible;
+    display: block;
+    background-color: #813efb;
+    padding: 8px 8px 8px 6.5px;
+    border-radius: 4px;
+    margin-top: -15px;
+}
 }
 
 #btn-send:disabled {
