@@ -1,9 +1,3 @@
-.bpw-widget-btn {
-            color: red !important;
-            background-color: aqua !important;
-            fill: aqua !important;
+.bpw-widget-btn {           
+            background-color: #813efb !important;
         }
-
-body{
-            background-color: black;
-}
