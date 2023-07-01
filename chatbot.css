@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css');
+
 .bpw-widget-btn {           
             background-color: #813efb !important;
         }
@@ -6,10 +8,12 @@
 #btn-send {
 text-indent: -9999px;
 line-height: 0;
+background-color:#813efb;
+            color:#fff;
 }
 
 #btn-send::after {
-    content: "New text";
+    content: '\f1d8';
     text-indent: 0;
     display: block;
     line-height: initial;        
