@@ -13,7 +13,7 @@ background-color:#813efb;
 }
 
 #btn-send::after {
-    content: '\f1d8';
+    content:"Odeslat";
     text-indent: 0;
     display: block;
     line-height: initial;        
